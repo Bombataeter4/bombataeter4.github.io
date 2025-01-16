@@ -1,9 +1,7 @@
 ---
 ---
 
-//
 // IMPORTS
-//
 
 @import "reset";
 @import "variables";
@@ -18,9 +16,11 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  background: #121212; // Donkere achtergrond
+  font: 18px/1.6 $helvetica;
+  color: #ffffff; // Witte tekstkleur
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -32,9 +32,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: #ffffff;
   font-weight: bold;
-
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
@@ -53,6 +52,8 @@ h1 {
 
 h2 {
   font-size: 24px;
+  border-bottom: 2px solid #555; // Accent bij H2
+  padding-bottom: 5px;
 }
 
 h3 {
@@ -61,7 +62,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: #bbbbbb; // Grijze tint voor minder nadruk
 }
 
 p {
@@ -69,11 +70,12 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #1e90ff; // Helderblauw voor links
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
+  transition: color 0.3s ease;
   &:hover, &:active {
-    color: $blue;
+    color: #00bfff; // Lichter blauw bij hover
   }
 }
 
@@ -98,8 +100,15 @@ ul ul, ol ul {
   list-style-type: circle;
 }
 
-em, i {
+blockquote {
+  margin: 1.8em 0.8em;
+  border-left: 4px solid #1e90ff; // Accentlijn bij quotes
+  padding: 0.1em 1em;
+  color: #cccccc;
+  font-size: 18px;
   font-style: italic;
+  background: #1e1e1e; // Donkere achtergrond voor quotes
+  border-radius: 5px;
 }
 
 strong, b {
@@ -108,56 +117,33 @@ strong, b {
 
 img {
   max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-// Fixes images in popup boxes from Google Translate
-.gmnoprint img {
-  max-width: none;
-}
-
-.date {
-  font-style: italic;
-  color: $gray;
-}
-
-// Specify the color of the selection
+// Specific styling for selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: #ffffff;
+  background: #1e90ff;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
-}
-
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
+  color: #ffffff;
+  background: #1e90ff;
 }
 
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
 
-//
-// .masthead
-//
-
+// Header Styling
 .wrapper-masthead {
   margin-bottom: 50px;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
-
+  border-bottom: 2px solid #333;
+  background-color: #1e1e1e;
   @include mobile {
     text-align: center;
   }
@@ -168,122 +154,72 @@ img {
   width: 70px;
   height: 70px;
   margin-right: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
   img {
-    border-radius: 5px;
-  }
-}
-
-.site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
+    border-radius: 50%; // Ronde profielfoto
   }
 }
 
 .site-name {
   margin: 0;
-  color: $darkGray;
-  cursor: pointer;
+  color: #ffffff;
   font-family: $helveticaNeue;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 28px;
-  letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #bbbbbb;
   font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
 }
 
+// Navigation bar
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
+  margin-top: 10px;
   a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
+    margin-left: 15px;
+    color: #ffffff;
     font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
+    &:hover {
+      color: #1e90ff;
     }
   }
 }
 
-//
-// .main
-//
+// Footer Styling
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background: #1e1e1e;
+  color: #bbbbbb;
+  font-size: 14px;
+}
 
+/******************/
+/* POST STYLING */
+/******************/
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid #333;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
   border-bottom: none;
 }
 
 .post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
-
-  .comments {
-    margin-top: 10px;
-  }
-
   .read-more {
+    font-size: 16px;
     text-transform: uppercase;
-    font-size: 15px;
+    color: #1e90ff;
+    &:hover {
+      color: #00bfff;
+    }
   }
 }
 
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
-
-footer {
-  padding: 20px 0;
-  text-align: center;
-}
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+// Import syntax highlighting styles
 @import "highlights";
 @import "svg-icons";
+
