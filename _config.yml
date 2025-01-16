@@ -10,7 +10,7 @@ name: Arend en Ole
 description: "Meest gestoorde blog ooit! Verhalen die je nooit zult vergeten. Inclusief video's, foto's, en soms exposes!"
 
 # URL van je avatar of profielfoto
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: /profile-picture.jpg
 
 #
 # Optionele instellingen
