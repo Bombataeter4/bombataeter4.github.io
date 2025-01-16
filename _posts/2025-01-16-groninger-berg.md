@@ -1,11 +1,9 @@
 
----
-layout: post
+---layout: post
 title: "De legende van de Groninger berg"
 date: 2025-01-16
 categories: [Avonturen]
-tags: [Stijn, Arend, Albudecadenten, Groningen]
----
+tags: [Stijn, Arend, Albudecadenten, Groningen]---
 
 # De legende van de Groninger berg
 
