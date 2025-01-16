@@ -2,7 +2,7 @@
 ---
 layout: post
 title: "Het Dopper-incident in Lloret de Mar"
-date: 2025-01-17
+date: 2025-01-16
 categories: [Avonturen]
 tags: [Joris, Ole, Robin, Albudecadenten, Lloret de Mar]
 ---
