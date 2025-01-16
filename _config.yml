@@ -4,7 +4,7 @@
 #
 
 # Naam van je site (weergegeven in de header)
-name: Arend en Ole
+name: Blog van Arend en Ole
 
 # Korte bio of beschrijving (weergegeven in de header)
 description: "Meest gestoorde blog ooit! Verhalen die je nooit zult vergeten. Inclusief video's, foto's, en soms exposes!"
@@ -19,9 +19,9 @@ avatar: /profile-picture.jpg
 # Links voor sociale media in de footer
 footer-links:
   github: bombataeter4 # Jouw GitHub-gebruikersnaam
-  twitter: jekyllrb # Pas dit aan naar je eigen Twitter-gebruikersnaam
+  twitter: lilaarieakaart # Pas dit aan naar je eigen Twitter-gebruikersnaam
   instagram:
-  youtube: channel/<your_channel_id> # Vervang met jouw YouTube-kanaal
+  youtube: https://www.youtube.com/@InformativeChannelGood # Vervang met jouw YouTube-kanaal
   rss: true # Zet dit op true om een werkend RSS-icoon te tonen
 
 # Disqus shortname voor reacties (als je Disqus gebruikt)
