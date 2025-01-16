@@ -18,14 +18,11 @@ avatar: /profile-picture.jpg
 
 # Links voor sociale media in de footer
 footer-links:
-  github: bombataeter4 # Jouw GitHub-gebruikersnaam
   twitter: lilaarieakaart # Pas dit aan naar je eigen Twitter-gebruikersnaam
-  instagram:
-  youtube: https://www.youtube.com/@InformativeChannelGood # Vervang met jouw YouTube-kanaal
+  youtube: channel/@InformativeChannelGood # Vervang met jouw YouTube-kanaal
   rss: true # Zet dit op true om een werkend RSS-icoon te tonen
 
 # Disqus shortname voor reacties (als je Disqus gebruikt)
-disqus: # Voeg je Disqus-shortname hier toe
 
 # Google Analytics tracking code
 google_analytics: # Voeg je Google Analytics tracking-ID toe, bijvoorbeeld UA-XXXXXXXXX-X
