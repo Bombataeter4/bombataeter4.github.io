@@ -2,7 +2,7 @@
 ---
 layout: post
 title: "Robin's nachtelijke avontuur in Assen"
-date: 2025-01-18
+date: 2025-01-16
 categories: [Avonturen]
 tags: [Robin, Tuff Guac, Groningen, Assen, Blackout]
 ---
