@@ -1,10 +1,4 @@
 
----layout: post
-title: "De legende van de Groninger berg"
-date: 2025-01-16
-categories: [Avonturen]
-tags: [Stijn, Arend, Albudecadenten, Groningen]---
-
 # De legende van de Groninger berg
 
 Het was een zwoele zomeravond in Boedapest. De vriendengroep **Albudecadenten** was halverwege hun vakantie en had zich genesteld in een levendige ruin bar, gevuld met internationale reizigers, gekleurde lichtjes, en de geur van goedkope cocktails. Onder hen was **Stijn**, geboren en getogen in Groningen, en **Arend**, die het altijd voor elkaar kreeg om overal waar hij kwam een chaos te creëren.
