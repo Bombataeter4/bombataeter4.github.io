@@ -16,7 +16,8 @@ html {
 }
 
 body {
-  background: #121212; // Donkere achtergrond
+  background: url('/background.jpg') no-repeat center center fixed; // Achtergrondafbeelding uit de root
+  background-size: cover; // Zorgt dat de afbeelding de hele pagina bedekt
   font: 18px/1.6 $helvetica;
   color: #ffffff; // Witte tekstkleur
   margin: 0;
@@ -222,4 +223,5 @@ footer {
 // Import syntax highlighting styles
 @import "highlights";
 @import "svg-icons";
+
 
