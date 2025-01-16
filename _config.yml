@@ -1,86 +1,72 @@
+
 #
-# This file contains configuration flags to customize your site
+# Dit bestand bevat configuratie-instellingen om je site aan te passen
 #
 
-# Name of your site (displayed in the header)
-name: Your Name
+# Naam van je site (weergegeven in de header)
+name: Arend en Ole
 
-# Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+# Korte bio of beschrijving (weergegeven in de header)
+description: "Meest gestoorde blog ooit! Verhalen die je nooit zult vergeten. Inclusief video's, foto's, en soms exposes!"
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
+# URL van je avatar of profielfoto
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
-# Flags below are optional
+# Optionele instellingen
 #
 
-# Includes an icon in the footer for each username you enter
+# Links voor sociale media in de footer
 footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: barryclark/jekyll-now
+  github: bombataeter4 # Jouw GitHub-gebruikersnaam
+  twitter: jekyllrb # Pas dit aan naar je eigen Twitter-gebruikersnaam
   instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+  youtube: channel/<your_channel_id> # Vervang met jouw YouTube-kanaal
+  rss: true # Zet dit op true om een werkend RSS-icoon te tonen
 
+# Disqus shortname voor reacties (als je Disqus gebruikt)
+disqus: # Voeg je Disqus-shortname hier toe
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
+# Google Analytics tracking code
+google_analytics: # Voeg je Google Analytics tracking-ID toe, bijvoorbeeld UA-XXXXXXXXX-X
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+# URL van je website (voor Sitemap.xml en RSS-feed)
+url: "https://bombataeter4.github.io"
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url:
+# Base URL (voor projectpagina's, laat leeg als je een gebruikerspagina maakt)
+baseurl: "" # Voor een site op een gebruikersdomein, zoals bombataeter4.github.io
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
+# Permalinkstructuur voor je blogposts
 permalink: /:title/
 
-# The release of Jekyll Now that you're using
+#
+# Technische instellingen (verander deze alleen als je weet wat je doet)
+#
+
+# Versie van Jekyll Now die je gebruikt
 version: v1.2.0
 
-# Jekyll 3 now only supports Kramdown for Markdown
+# Markdown-instellingen
 kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
-# Set the Sass partials directory, as we're using @imports
+# Sass-instellingen
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  style: :expanded
 
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+# Plug-ins die worden gebruikt
+plugins:
+  - jekyll-sitemap # Voor een sitemap
+  - jekyll-feed # Voor een Atom-feed
 
-# Exclude these files from your production _site
+# Bestanden die worden uitgesloten uit de productie
 exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
+
