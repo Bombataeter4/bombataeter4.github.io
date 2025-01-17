@@ -22,6 +22,12 @@ Stijn zag haar blik en wist dat hij iets speciaals moest verzinnen.
 *"Oh, definitely,"* zei hij. *"We’re very independent, down-to-earth, and we even have our own language."*
 
 ## Arend komt zich ermee bemoeien
+
+<figure>
+  <img src="/images/StijnRizz.jpeg" alt="Stijn met Emily" style="max-width:100%; height:auto;">
+  <figcaption>Stijn met Emily, het meisje uit Australië.</figcaption>
+</figure>
+
 Arend, die met Ole en Robin een paar meter verderop stond, had dit gesprek opgemerkt. Hij kende Stijn goed genoeg om te weten waar dit heen ging. Met een ondeugende grijns draaide hij zich naar Ole en Robin.  
 *"Dit moet ik verpesten,"* zei hij, terwijl hij naar de bar liep en net op tijd naast Stijn kwam staan.  
 *"Stijn, maat!"* riep Arend te luid, waardoor Emily en Stijn verschrikt opkeken. *"Vertel je nou weer over dat ‘bijzondere’ Groningen? Is dat waar je het verhaal van de Groninger berg weer uit gaat halen?"*
