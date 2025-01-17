@@ -31,6 +31,9 @@ Ondertussen bleef de groepschat ontploffen van speculaties. Sommige vrienden sug
 ---
 
 ### De reddingsactie
+
+![De foto die de politie stuurde in de groepsapp](/images/olejacob.jpeg "Ole Jacob")
+
 Nadat het duidelijk werd dat Ole Jacob in het plaatselijke politiebureau zat, begon de reddingsactie. Niemand wist precies wat ze konden verwachten, maar iedereen wilde hem helpen. In de groepsapp stroomden de reacties binnen:
 
 - *"Ik kan hem niet ophalen, mijn auto staat zonder benzine."*  
@@ -48,3 +51,4 @@ Tegen de ochtend kreeg Ole Jacob zijn vrijheid terug. Jelger bracht hem veilig t
 
 ### Epiloog
 Tot op de dag van vandaag blijft Ole Jacob een legende in onze vriendengroep. Zijn nachtelijke avontuur heeft ons een verhaal gegeven dat we keer op keer zullen vertellen, steeds iets overdrevener dan de keer ervoor. En misschien is dat wel wat een vriendengroep zo speciaal maakt: de verhalen die je deelt.
+
