@@ -15,6 +15,6 @@ Hier vind je een verzameling van alle foto's uit onze verhalen. Klik op een foto
 </figure>
 
 <figure>
-  <img src="/images/olejacob.jpeg" alt="Ole Jacob na zijn avontuur met de politie" style="max-width:100%; height:auto;">
+  <img src="/images/Olejacob.jpeg" alt="Ole Jacob na zijn avontuur met de politie" style="max-width:100%; height:auto;">
   <figcaption><a href="/2025/01/16/ole-jacob-en-de-nachtelijke-politie/">Ole Jacob na zijn avontuur met de politie</a></figcaption>
 </figure>
