@@ -32,7 +32,7 @@ Ondertussen bleef de groepschat ontploffen van speculaties. Sommige vrienden sug
 
 ### De reddingsactie
 
-![De foto die de politie stuurde in de groepsapp](/images/olejacob.jpeg "Ole Jacob")
+![De foto die de politie stuurde in de groepsapp](/images/Olejacob.jpeg "Ole Jacob")
 
 Nadat het duidelijk werd dat Ole Jacob in het plaatselijke politiebureau zat, begon de reddingsactie. Niemand wist precies wat ze konden verwachten, maar iedereen wilde hem helpen. In de groepsapp stroomden de reacties binnen:
 
